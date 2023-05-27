@@ -21,36 +21,44 @@
             <tr>
               <th colspan="4">
                 <input type="text" disabled />
-                <input type="button" value="C" />
               </th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><input type="button" value="7" /></td>
-              <td><input type="button" value="8" /></td>
-              <td><input type="button" value="9" /></td>
-              <td><input type="button" value="÷" /></td>
+              <td>
+                <input type="button" value="7" class="nbr-input" />
+              </td>
+              <td><input type="button" value="8" class="nbr-input" /></td>
+              <td><input type="button" value="9" class="nbr-input" /></td>
+              <td><input type="button" value="÷" class="symbol-input" /></td>
             </tr>
             <tr>
-              <td><input type="button" value="4" /></td>
-              <td><input type="button" value="5" /></td>
-              <td><input type="button" value="6" /></td>
-              <td><input type="button" value="x" /></td>
+              <td><input type="button" value="4" class="nbr-input" /></td>
+              <td><input type="button" value="5" class="nbr-input" /></td>
+              <td><input type="button" value="6" class="nbr-input" /></td>
+              <td><input type="button" value="x" class="symbol-input" /></td>
             </tr>
             <tr>
-              <td><input type="button" value="1" /></td>
-              <td><input type="button" value="2" /></td>
-              <td><input type="button" value="3" /></td>
-              <td><input type="button" value="-" /></td>
+              <td><input type="button" value="1" class="nbr-input" /></td>
+              <td><input type="button" value="2" class="nbr-input" /></td>
+              <td><input type="button" value="3" class="nbr-input" /></td>
+              <td><input type="button" value="-" class="symbol-input" /></td>
             </tr>
             <tr>
-              <td><input type="button" value="." /></td>
-              <td><input type="button" value="0" /></td>
-              <td><input type="button" value="=" /></td>
-              <td><input type="button" value="x" /></td>
+              <td><input type="button" value="." class="symbol-input" /></td>
+              <td><input type="button" value="0" class="nbr-input" /></td>
+              <td><input type="button" value="C" class="clear" /></td>
+              <td><input type="button" value="x" class="symbol-input" /></td>
             </tr>
           </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="4">
+                <input type="button" value="=" class="equals" />
+              </td>
+            </tr>
+          </tfoot>
         </table>
         <script src="script.js"></script>
       </div>

@@ -1,3 +1,12 @@
-p {
-  color: blue;
+table {
+  border: solid;
+  border-spacing: 10px 10px;
+  margin: 20px auto;
+  border-collapse: separate;
+}
+td {
+  padding: 0px;
+}
+input {
+  width: 100%;
 }
