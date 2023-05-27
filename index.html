@@ -20,42 +20,157 @@
           <thead>
             <tr>
               <th colspan="4">
-                <input type="text" disabled />
+                <input type="text" disabled id="display-box" />
               </th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>
-                <input type="button" value="7" class="nbr-input" />
+                <input
+                  type="button"
+                  value="7"
+                  class="nbr-input"
+                  onclick="display('7')"
+                />
               </td>
-              <td><input type="button" value="8" class="nbr-input" /></td>
-              <td><input type="button" value="9" class="nbr-input" /></td>
-              <td><input type="button" value="÷" class="symbol-input" /></td>
+              <td>
+                <input
+                  type="button"
+                  value="8"
+                  class="nbr-input"
+                  onclick="display('8')"
+                />
+              </td>
+              <td>
+                <input
+                  type="button"
+                  value="9"
+                  class="nbr-input"
+                  onclick="display('8')"
+                />
+              </td>
+              <td>
+                <input
+                  type="button"
+                  value="÷"
+                  class="symbol-input"
+                  onclick="display('÷')"
+                />
+              </td>
             </tr>
             <tr>
-              <td><input type="button" value="4" class="nbr-input" /></td>
-              <td><input type="button" value="5" class="nbr-input" /></td>
-              <td><input type="button" value="6" class="nbr-input" /></td>
-              <td><input type="button" value="x" class="symbol-input" /></td>
+              <td>
+                <input
+                  type="button"
+                  value="4"
+                  class="nbr-input"
+                  onclick="display('4')"
+                />
+              </td>
+              <td>
+                <input
+                  type="button"
+                  value="5"
+                  class="nbr-input"
+                  onclick="display('5')"
+                />
+              </td>
+              <td>
+                <input
+                  type="button"
+                  value="6"
+                  class="nbr-input"
+                  onclick="display('6')"
+                />
+              </td>
+              <td>
+                <input
+                  type="button"
+                  value="+"
+                  class="symbol-input"
+                  onclick="display('+')"
+                />
+              </td>
             </tr>
             <tr>
-              <td><input type="button" value="1" class="nbr-input" /></td>
-              <td><input type="button" value="2" class="nbr-input" /></td>
-              <td><input type="button" value="3" class="nbr-input" /></td>
-              <td><input type="button" value="-" class="symbol-input" /></td>
+              <td>
+                <input
+                  type="button"
+                  value="1"
+                  class="nbr-input"
+                  onclick="display('1')"
+                />
+              </td>
+              <td>
+                <input
+                  type="button"
+                  value="2"
+                  class="nbr-input"
+                  onclick="display('2')"
+                />
+              </td>
+              <td>
+                <input
+                  type="button"
+                  value="3"
+                  class="nbr-input"
+                  onclick="display('3')"
+                />
+              </td>
+              <td>
+                <input
+                  type="button"
+                  value="-"
+                  class="symbol-input"
+                  onclick="display('-')"
+                />
+              </td>
             </tr>
             <tr>
-              <td><input type="button" value="." class="symbol-input" /></td>
-              <td><input type="button" value="0" class="nbr-input" /></td>
-              <td><input type="button" value="C" class="clear" /></td>
-              <td><input type="button" value="x" class="symbol-input" /></td>
+              <td>
+                <input
+                  type="button"
+                  value="."
+                  class="symbol-input"
+                  onclick="display('.')"
+                />
+              </td>
+              <td>
+                <input
+                  type="button"
+                  value="0"
+                  class="nbr-input"
+                  onclick="display('0')"
+                />
+              </td>
+              <td>
+                <input
+                  type="button"
+                  value="C"
+                  class="clear"
+                  onclick="clearDisplay()"
+                />
+              </td>
+              <td>
+                <input
+                  type="button"
+                  value="x"
+                  class="symbol-input"
+                  onclick="display('x')"
+                />
+              </td>
             </tr>
           </tbody>
           <tfoot>
             <tr>
               <td colspan="4">
-                <input type="button" value="=" class="equals" />
+                <input
+                  type="button"
+                  value="="
+                  class="equals"
+                  onclick="calculate()"
+                />
               </td>
             </tr>
           </tfoot>
