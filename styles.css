@@ -10,3 +10,22 @@ td {
 input {
   width: 100%;
 }
+.equals {
+  color: #fff;
+  background-color: darkgreen;
+}
+
+.nbr-input {
+  background-color: lightgrey;
+  color: #333;
+}
+
+.clear {
+  background-color: darkred;
+  color: #fff;
+}
+
+.symbol-input {
+  background-color: #333;
+  color: #fff;
+}
